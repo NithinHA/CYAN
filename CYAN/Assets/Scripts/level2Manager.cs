@@ -9,7 +9,15 @@ public class level2Manager : MonoBehaviour {
 	int count = 0;
 	int xPosition = -432;									//initially points to 1 block behind(left) of screen. During first iteration, incremente by 96 to point at leftmost edge of panel
 	bool createNew = true;									//checks if block current block is fixed and new block has to be instantiated
-	bool[] blocksArr = new bool[8];							//checks if a block has already been fixed and also if level is complete 
+	bool[] blocksArr = new bool[8];                         //checks if a block has already been fixed and also if level is complete 
+
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+	}
 
 	public void onClickNew()
 	{

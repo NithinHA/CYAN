@@ -343,6 +343,50 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_text
+      value: 'Hello there!
+
+        This is a really simple game it just revolves around clicking on the pieces
+        and completing puzzles.
+
+        If you get stuck anywhere, press ''R'' key to reset the level.
+
+        And.. thats about it.
+
+        Have fun!! :)'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_textInfo.characterCount
+      value: 209
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_textInfo.spaceCount
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_textInfo.wordCount
+      value: 37
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114524912289755894, guid: 7a356758f3fb6744996d08964c26e5ce,
+        type: 2}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7a356758f3fb6744996d08964c26e5ce, type: 2}
   m_IsPrefabParent: 0
@@ -606,16 +650,14 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 'Hello there!
 
-    I see you''ve clicked on the ''info'' button. If you were expecting to find game
-    controls here, sorry to tell you there aren''t any. But don''t worry, the game
-    is too simple to have controls explicitly mentioned.
+    This is a really simple game it just revolves around clicking on the pieces and
+    completing puzzles.
 
-    Again if you had clicked on this button just out of curiosity, then thank you
-    for your patience. Game devs adore players like you.
+    If you get stuck anywhere, press ''R'' key to reset the level.
 
-    Have fun!! :)
+    And.. thats about it.
 
-'
+    Have fun!! :)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
@@ -648,7 +690,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 2
+  m_fontStyle: 0
   m_textAlignment: 257
   m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
@@ -683,12 +725,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 26.580872, z: 0, w: 13.04805}
   m_textInfo:
     textComponent: {fileID: 1255341865}
-    characterCount: 366
+    characterCount: 209
     spriteCount: 0
-    spaceCount: 66
-    wordCount: 65
+    spaceCount: 37
+    wordCount: 37
     linkCount: 0
-    lineCount: 7
+    lineCount: 6
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0

@@ -8,6 +8,14 @@ public class levelManager : MonoBehaviour {
 	int count = 0;								//Checks if level is complete
 	int xPosition = -336;
 
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.R))
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+	}
+
 	public void onClick()
 	{
 		if(count >= 7)
